@@ -19,7 +19,6 @@ export class RegisterComponent implements OnInit {
     if (this.email && this.password) {
       this.loading = true;
       setTimeout(() => {
-        // Handle the register logic here
         console.log('Email:', this.email);
         console.log('Password:', this.password);
         console.log('Remember Me:', this.rememberMe);
